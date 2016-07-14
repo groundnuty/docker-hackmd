@@ -2,6 +2,8 @@ version: '2'
 services:
   hackmdPostgres:
     image: postgres
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
     environment:
       - POSTGRES_USER=hackmd
       - POSTGRES_PASSWORD=hackmdpass
