@@ -12,9 +12,10 @@ See more here: https://www.docker.com/docker-toolbox
 
 1. Start you docker via `Docker Quickstart Terminal`, you will see a machine IP (remember that).
 2. Run `git clone https://github.com/hackmdio/docker-hackmd.git`.
-3. Run `docker-compose up` in your docker terminal.
-4. Wait until see th log `HTTP Server listening at port 3000`, it will take few minutes based on your internet.
-5. Open any browser and surf `<machine IP>:3000`
+3. Create backup directory `mkdir postgres`.
+4. Run `docker-compose up` in your docker terminal.
+5. Wait until see th log `HTTP Server listening at port 3000`, it will take few minutes based on your internet.
+6. Open any browser and surf `<machine IP>:3000`
 
 ## Update
 
